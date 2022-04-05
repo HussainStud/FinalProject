@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/drawable/circle_shape_primary.xml" value="0.156" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/drawable/splash_screen_bg_view.xml" value="0.104" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.1" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout/activity_home.xml" value="0.17786561264822134" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout/activity_scrolling.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout/activity_splash_screen.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout/content_scrolling.xml" value="0.176" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout/main_fragment.xml" value="0.2203125" />
+        <entry key="..\:/Users/hussian/Documents/ClassWorks/Graduation-project/app/src/main/res/layout/student_list_item.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+
+    <LinearLayout
+        android:background="@drawable/scrollable_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/profile_image_layout"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            >
+
+            <View
+
+                android:id="@+id/view_thatisbehindprofile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/circle_shape_primary" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/scrollable_profile_imageView"
+                android:layout_width="165dp"
+                android:layout_height="166dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/profile_1"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="4dp" />
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/scrollable_name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="My name is Ahmed Aashor"
+            android:layout_margin="@dimen/text_margin"
+            />
+        <ImageView
+            android:id="@+id/scrollable_complementrary_imageView"
+            android:layout_width="300dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:src="@drawable/graduation_hat"
+            />
+
+        <TextView
+            android:id="@+id/scrollable_complementary_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:fontFamily="@font/raleway_semibold"
+            android:text="Here is how my journey begun"
+            android:layout_margin="@dimen/text_margin"
+            />
+
+        <TextView
+
+            android:id="@+id/scrollable_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/large_text"
+            android:textSize="20sp"
+            android:fontFamily="@font/raleway_light"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

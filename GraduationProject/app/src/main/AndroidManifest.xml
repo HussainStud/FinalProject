@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tutorial.graduationproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo_yellowwithblack"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo_yellowwithblack"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GraduationProject">
+        <activity
+            android:name=".SplashScreen2"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ScrollingActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GraduationProject.NoActionBar" />
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Mountain of Patience</string>
+    <string name="app_name_i_think">The Success Path</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="electric_engineering_string">
+        "Oregon State has earned a worldwide reputation for excellence in teaching and research. This includes the Carnegie Foundation’s highest designation — the classification reserved for universities with “very high research activity.\n\n"
+
+"Even as an undergraduate, you’ll have opportunities to make contributions to faculty and graduate students’ research projects. You may also develop and pursue your own research, get funding and even publish before you graduate."
+
+"As one of our undergraduate students, you will have the opportunity to present your research in the annual Undergraduate Engineering Expo. There are also numerous presentations and symposiums within each college throughout the academic year.\n\n"
+"Equally important to your academic and research work at Oregon State, you will find many opportunities to engage with your fellow students from all engineering majors.\n\n"
+
+"Once you're here, you will find a resource-rich environment that encourages you to combine your studies in engineering with opportunities like the Honors College or study abroad programs."
+
+"From your first moments as an undergraduate, you’ll enter orientation and the START program where you will learn about campus and college resources.\n\n"
+
+"If you are interested in speaking with an engineering undergraduate student before you apply, there are many student ambassadors who will speak with you about the Oregon State experience."
+
+    </string>
+
+    <string name="computer_engineering_string">
+        "EIT Master of Engineering student, Santosh Ghimire, had to use a kerosene lamp to study and do his homework while growing up. His formative years in Nepal meant he was part of a sizable portion of the population that didn’t have access to electricity at home.\n\n"
+
+"Now he authors a published article on wind power and sustainable energy.\n\n"
+
+"Co-authored with EIT’s Professional Doctorate Research Coordinator and Lecturer, Dr. Seyed Morteza Alizadeh, their paper Developing a Decision Tree Algorithm for Wind Power Plants Siting and Sizing in Distribution Networks explores the realm of wind power possibilities, but it’s Santosh’s personal connection with electricity that gives this paper its buzz.\n\n"
+"After the end of Nepal’s civil war in 2006, building basic infrastructure like roads, electricity grids, and telecommunications in remote areas increased. At that time, I used to think of how electricity has changed the quality of life for people in terms of health, education, safety, economy, and reliability\n\n"
+
+        "Then the lightbulb flickered on. After graduating school, Santosh enrolled for a Bachelor's Degree in Electrical Engineering at Tribhuvan University’s Pulchowk Campus in Lalitpur. Here he gravitated toward the principles and application of the field.
+
+“I had a keen interest in power systems and renewable energy sources,” he explains.
+
+After completing his degree, he was quickly part of the workforce at Alternative Energy Promotion Center (AEPC) in Nepal.
+
+The governmental organization promotes alternative energies like biogas, as well as hydro, wind, and solar power.
+
+\n\n"
+    </string>
+
+<string name="medical_string">
+        "Background: Shukri and Summaiya are both 6th-year medical students, which means they are in their final year of schooling before becoming interns. They are also among the first friends that we made living at the hostels, and since then, they have taken us under their wings. This was the most boisterous and charged interview I've had yet, and they are truly inspiring to me because it is their passion and dedication to medicine that shows that they, along with their peers, are the future of Kenyan medicine. I am straying from my typical interview format in this entry simply in an attempt to capture the flow of their exchanges.\n\n"
+        "Summaiya: I've always dreamed of being a doctor, but it can be frustrating being a medical student. It is frustrating, but rewarding too. When I went to the wards, I realized the impact students could have on patients. The story I always remember is of a 4 year old patient named Sharon whom I met in my 4th year rotation in Peds. She had presented with multiple fractures and stab wounds, and she was clearly a case of child abuse. However, everyone was so busy that no one noticed, except for the medical student whose job it was to take detailed histories of the patient. \n\n"
+    "Now in the  US, you would probably get an x-ray and see old, healed fractures, or have a psychologist, but here, we don't have that. So it often ends up being the medical student who spends the most time with the patient, and when I looked into her story, I found out that she was being abused by her step-mother. But, even after this, it is frustrating since it doesn't matter; she still went home. This is an issue of culture, not government, since the government has given us community health workers, social workers, the Child Protection Act; but we need community acceptance that such things are happening and they need to be reported or addressed. This story is the reason I want to go into pediatrics.\n\n"
+    "Shukri: I don't really have a story that I remember since I think I deal with problems by forgetting. I actually ranked law school as my first choice in high school, but then I decided to pursue medicine, and I went to Poland to study. However, it was hard. There were five of us Kenyans in the program, and I was very homesick. Every day I would talk to my mom about coming home, and she would say, . I would then talk to my dad, and he would say,.\n\n"
+    "The NGO that was supposed to sponsor us didn't end up giving us as much support as they promised, so my parents were paying around 20K per month. Plus, once the money reached me, there wasn't much left after rent and groceries, so I felt like my parents were struggling for nothing. The language was different and not many familiar faces around. I became depressed, we all were. After that, I knew I had to return to Kenya, and when I did, I requested a transfer to Moi University School of Medicine, and they accepted me, so I came here.\n\n"
+    </string>
+    <string name="high_school_string">
+        "Hussain published his writing in the 2020 Winter issue of the Korean Youth Literature magazine "Blue Writing Yard". Last year in Term 1, various writings such as book reviews and reports written by Year 9 and Year 10 students were submitted to the magazine publisher and Jeonghwan's writing was selected from among them! Blue Writing Yard is the only literary magazine for teenagers in Korea, founded in 2006. It is published twice a year and draws excellent writings from teenagers across the country and abroad.\n\n"
+        "The Korean youth novel “Wizard bakery” is a story written in the first person, telling of a teenager's experiences in the bakery and the customers who purchase the therapeutic bakery goods. The book describes a 16 year-old's exploration of a bakery selling cookies, scones and muffins baked by a wizard for certain medicinal purposes. Jeonghwan liked that it caught the reader's attention with a story that teenagers can sympathise with based around the social problems that teenagers can easily find around themselves. He wrote a book review criticising society based on these aspects; "There is no equality in society."\n\n"
+        "Our talented Year 4 student Sienna won the Global Campus Comic Book Competition. Her idea was made into a real comic strip by the surprise illustrator, James Foley!
+
+The competition was inspired by Gavin Aung Than, and the challenge was to develop a comic that used an inspirational quote to highlight your thoughts on the UNCRC. So many students entered the competition across  Nord Anglia Education schools, and we are very pleased to inform you that Sienna was selected as the winner of her age category (under 8s). Congratulations Sienna!\n\n"
+        "Between 10th May and 17th May 2019, the Chess Championship of Bratislava was held. This competition has a long tradition that dates back 100 years and this year its Centennial Anniversary was celebrated. The tournament is very prestigious as all the ‘big names’ from Bratislava have taken part in it at some time in their careers. There is no age limit and only the 10 strongest players from Bratislava are invited to participate in it. The final round was held in Zichy Palace and was opened by the Mayor of Bratislava Old Town, Ms. Aufrichtova.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="profile_item_description_hamied">Learn about dr.Hamid journey through the hardships he faces during his years of working</string>
+    <string name="electric_eng">Electric Engineering</string>
+    <string name="ahmed_shakir">Ahmed Shakir</string>
+</resources>
